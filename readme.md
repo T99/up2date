@@ -15,6 +15,21 @@ $ pip install up2date
 
 **Note** _At time of pushing this code, this package is not yet live on PyPi._
 
+You can also download this source and install it locally:
+
+```
+$ git clone https://github.com/T99/up2date.git your/desired/path
+$ pip install your/desired/path
+```
+
+This project does use Python 3+, so if you're having trouble installing using plain `pip`, you can also try:
+
+```
+$ python3 -m pip install your/desired/path
+```
+
+...and you should be good to go!
+
 ## Basic Usage
 
 Running the `up2date` command for a given set of files will perform an en-mass find-and-replace that ONLY acts on files that have been modified since the most recent Git commit in the specified repository.
