@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+
+#   
+#   Created by Trevor Sears <trevorsears.main@gmail.com>.
+#   12:29 AM -- October 11th, 2019.
+#   Project: up2date
+#   
+
+from up2date.main import run_cli
+
+run_cli()
